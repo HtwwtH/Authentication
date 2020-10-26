@@ -1,5 +1,13 @@
+// import * as usersBD from './usersBD.json';
+import users from './usersBD.js';
+
+
 export function configureFakeBackend() {
-    let users = [{ id: 1, username: 'test', password: 'test', firstName: 'Test', lastName: 'User' }];
+
+    // let usersData = JSON.parse(JSON.stringify(usersBD));
+    // let users = usersData["default"];
+    // debugger;
+
     let realFetch = window.fetch;
     window.fetch = function (url, opts) {
         const isLoggedIn = opts.headers['Authorization'] === 'Bearer fake-jwt-token';
