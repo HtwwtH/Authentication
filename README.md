@@ -1,5 +1,3 @@
-# react-jwt-authentication-example
+Antd login page + jwt authentication + webpack  
 
-React (without Redux) - JWT Authentication Tutorial & Example
-
-To see a demo and further details go to http://jasonwatmore.com/post/2019/04/06/react-jwt-authentication-tutorial-example
+Used React (without Redux) - JWT Authentication Tutorial & Example by http://jasonwatmore.com/post/2019/04/06/react-jwt-authentication-tutorial-example
